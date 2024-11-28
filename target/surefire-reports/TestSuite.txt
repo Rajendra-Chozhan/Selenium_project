@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 6.617 s <<< FAILURE! - in TestSuite
+setup(com.project.testcases.TC_LoginTest_001)  Time elapsed: 4.976 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 105
+Current browser version is 124.0.6367.92 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'CHOZHAN', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BCDF13+2219795]
+	Ordinal0 [0x00B62841+1779777]
+	Ordinal0 [0x00A7423D+803389]
+	Ordinal0 [0x00A964AC+943276]
+	Ordinal0 [0x00A919F0+924144]
+	Ordinal0 [0x00A8F179+913785]
+	Ordinal0 [0x00AC36B9+1128121]
+	Ordinal0 [0x00AC331A+1127194]
+	Ordinal0 [0x00ABE616+1107478]
+	Ordinal0 [0x00A97F89+950153]
+	Ordinal0 [0x00A98F56+954198]
+	GetHandleVerifier [0x00EC2CB2+3040210]
+	GetHandleVerifier [0x00EB2BB4+2974420]
+	GetHandleVerifier [0x00C66A0A+565546]
+	GetHandleVerifier [0x00C65680+560544]
+	Ordinal0 [0x00B69A5C+1808988]
+	Ordinal0 [0x00B6E3A8+1827752]
+	Ordinal0 [0x00B6E495+1827989]
+	Ordinal0 [0x00B780A4+1867940]
+	BaseThreadInitThunk [0x754460C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77297A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77297A64+180]
+
+
+setup(com.project.testcases.TC_OrderingTest_002)  Time elapsed: 0.916 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 105
+Current browser version is 124.0.6367.92 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'CHOZHAN', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BCDF13+2219795]
+	Ordinal0 [0x00B62841+1779777]
+	Ordinal0 [0x00A7423D+803389]
+	Ordinal0 [0x00A964AC+943276]
+	Ordinal0 [0x00A919F0+924144]
+	Ordinal0 [0x00A8F179+913785]
+	Ordinal0 [0x00AC36B9+1128121]
+	Ordinal0 [0x00AC331A+1127194]
+	Ordinal0 [0x00ABE616+1107478]
+	Ordinal0 [0x00A97F89+950153]
+	Ordinal0 [0x00A98F56+954198]
+	GetHandleVerifier [0x00EC2CB2+3040210]
+	GetHandleVerifier [0x00EB2BB4+2974420]
+	GetHandleVerifier [0x00C66A0A+565546]
+	GetHandleVerifier [0x00C65680+560544]
+	Ordinal0 [0x00B69A5C+1808988]
+	Ordinal0 [0x00B6E3A8+1827752]
+	Ordinal0 [0x00B6E495+1827989]
+	Ordinal0 [0x00B780A4+1867940]
+	BaseThreadInitThunk [0x754460C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77297A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77297A64+180]
+
+
